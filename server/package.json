@@ -5,8 +5,10 @@
   "license": "MIT",
   "author": "Allan Julie Fontes de Oliveira",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
-    "test": "jest"
+    "test": "jest",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts"
   },
   "devDependencies": {
     "@swc/core": "^1.2.178",
